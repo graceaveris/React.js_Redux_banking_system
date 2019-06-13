@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic;
+  background-color: #0D0C12;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  padding-bottom: 100px;
+  color: white;
+  margin-top: -30px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 20vmin;
+  float: left
+}
+
+.App-header {
+  background-color: #0D0C12;
+  margin-top: 80px;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.smallbtn {
+  border: 2px solid white;
+  border-radius: 20px;
+  float: left
+}
+
+.mainbtn {
+  border: 2px solid white;
+  font-size: 14px;
+  border-radius: 20px;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.atm {
+  border: 4px solid white;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  background-color: grey;
+}
+
+.bank {
+  border: 4px solid white;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #8a83c6;
+}
+
+
+h1 {
+  color: #8a83c6;
+  font-size: calc(10px + 6vmin);
+}
+
+h2 {
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+h3 {
+  color: black;
+  font-size: calc(12px + 2vmin);
+}
+
+p {
+  font-size: calc(4px + 2vmin); 
+}
+
+input {
+  width: 100px;
+  webkit-padding-start: 0;
+}
+
+li {
+  color: white;
+  font-size: calc(5px + 2vmin);
+  list-style-type: none;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
